@@ -15,15 +15,12 @@ body{
     .edu-btn button{
         display: inline !important;
     }
+    .center-center-s{
+        justify-content: center !important;
+    }
     }
 @media (max-width: 768px){
-    .bg-img-1 {
-        height: 400px !important;
-    }
-    .bg-img-2 {
-        height: 400px !important;
-    }
-    .col .edu-f1{
+    .pb-md-0 .edu-f1{
         font-size: 3rem !important;
     }
     }
@@ -31,34 +28,22 @@ body{
     .edu-btn .edu-dis-none{
         display: none !important;
     }
-    .bg-img-1 {
-        height: 262px !important;
-    }
-    .bg-img-2 {
-        height: 262px !important;
-    }
-    .col .edu-f1{
+    .pb-md-0 .edu-f1{
         font-size: 2rem !important;
     }
 }
 
-.bg-img-1{
-    background-image: url(./images/cover/cover-3.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: 700px;
-    
-}
-.bg-img-2{
-    background-image: url(./images/cover/cover-1.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: 700px;
-}
 .edu-f1{
     font-size: 4rem !important;
 
+}
+.fa-solid{
+    color: #f59e0b;
+}
+.edu-bg{
+    background-color: #289bde !important;
+}
+.edu-text{
+    color: #289bde !important;
 }
 
